@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   fill="none"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="facebook2.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.63875"
+     inkscape:cx="399.21722"
+     inkscape:cy="400.78278"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1352"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <g
+     id="g834"
+     transform="matrix(1.1252446,0,0,1.1185351,-1.9412916,-1.8652502)">
+    <circle
+       cx="16"
+       cy="16"
+       r="14"
+       fill="url(#paint0_linear_87_7208)"
+       id="circle2"
+       style="fill:url(#paint0_linear_87_7208)" />
+    <path
+       d="m 21.2137,20.2816 0.6219,-3.9515 H 17.9452 V 13.767 c 0,-1.0813 0.5425,-2.1359 2.285,-2.1359 H 22 V 8.26699 C 22,8.26699 20.3945,8 18.8603,8 15.6548,8 13.5617,9.89294 13.5617,13.3184 v 3.0117 H 10 v 3.9515 h 3.5617 v 9.5529 C 14.2767,29.944 15.0082,30 15.7534,30 c 0.7452,0 1.4768,-0.056 2.1918,-0.1655 v -9.5529 z"
+       fill="#ffffff"
+       id="path4" />
+  </g>
+  <defs
+     id="defs11">
+    <linearGradient
+       id="paint0_linear_87_7208"
+       x1="16"
+       y1="2"
+       x2="16"
+       y2="29.917"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#18ACFE"
+         id="stop6" />
+      <stop
+         offset="1"
+         stop-color="#0163E0"
+         id="stop8" />
+    </linearGradient>
+  </defs>
+</svg>

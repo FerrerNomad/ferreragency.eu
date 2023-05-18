@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="creator" content="Ferrer Digital Agency">
+    <meta name="title" property="og:title" content="ChatGPT como funciona">
+    <meta name="description" content="Somos uma Agência de Marketing Digital, especializada em Criação de Conteúdo, Media Social, Marketing Digital e Websites">
+    <meta name="language" content="pt-pt">
+    <meta property="og:locale" content="pt-pt">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#0c465f" />
+    <meta name="msapplication-TileImage" content="assets/files/robertferrer-144x144.webp" />
+    <meta property="og:image:alt" content="Agência Ferrer Marketing Digital logo">
+    <meta name="google-site-verification" content="LUqEEkKtYIvVh0Ls4PvWsWF2V5y3NO3rzqcVw3hnaPw" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Agência Ferrer Marketing Digital">
+    <meta name="url" property="og:url" content="https://ferreragency.eu/" />
+    <meta name="image" property="og:image" content="https://ferreragency.eu/assets/files/robert-ferrer.webp" />
+    <meta name="image" property="og:image:width" content="300" />
+    <meta name="image" property="og:image:height" content="300" />
+    <link rel="canonical" href="https://ferreragency.eu/blogchatgpt.pt.html" />
+    <link rel="icon" class="logo2" href="assets/files/logomini.svg" />
+    <!-- LGPD of AdOpt start-->
+    <meta name="adopt-website-id" content="081d0ba6-2a3e-4d21-8211-c399a13897fc" />
+    <script src="//tag.goadopt.io/injector.js?website_code=081d0ba6-2a3e-4d21-8211-c399a13897fc" class="adopt-injector"></script>
+    <!-- LGPD of AdOpt end-->
+    <!--bootstrap fonts link-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>ChatGPT como funciona</title>
+</head>
+
+<body class="white" id="demo">
+    <header>
+        <!-- Nav Button start-->
+        <nav class="navbar navbar-expand-lg navbar-light menu-color fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" width=164px height=50px alt="Ferrer Agency" src="assets/files/robert-ferrer.webp" style=" padding=0px margin=0px width=100% height=100%" style=" padding=0px margin=0px width=100% height=100%" alt="Agência Ferrer Marketing Digital" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="google-adwords.pt.html">Google Ads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="websites.pt.html">Landing page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="social-media.pt.html">Redes Sociais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="blog.pt.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact.pt.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="ms-auto text-center">
+                        <div class="navbar-nav justify-content-between text-center">
+                            <a class="dropdown-item" href="blogchatgpt.uk.html"><img class="logo-language" src="assets/files/uk.webp" style="width=26px height=22px" alt="lingua inglesa" /></a>
+                            <a class="dropdown-item" href="blogchatgpt.pt.html"><img class="logo-language" src="assets/files/pt.webp" style="width=26px height=22px" alt="lingua portuguesa" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <input class="menu-control" type="checkbox" id="active" />
+        <a href="index.html" class="logo-brand"><i>
+          <img
+     class="logo-brand-menu" width=164px height=50px
+          src="assets/files/robert-ferrerC.webp"
+          alt="Ferrer Digital Agency" /></i></a>
+        <label for="active" class="menu-btn"><i
+          ><img
+            class="brand-menu"
+            style=" padding=0px margin=0px width=100% height=100%"
+            src="assets/files/menu-button.svg"
+           alt="Menu" /></i>
+      </label>
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html"><span class="link-menu-mobile">Home</span></a></li>
+                <li><a href="google-adwords.pt.html"><span class="link-menu-mobile">Google Ads</span></a></li>
+                <li><a href="websites.pt.html"><span class="link-menu-mobile">Landing<span class="letter-transparent">_</span><span class="letter-transparent"></span>page</span></a></li>
+                <li><a href="social-media.pt.html"><span class="link-menu-mobile">Redes<span class="letter-transparent">de</span><span class="letter-transparent"></span>Sociais</span></a></li>
+                <li><a href="blog.pt.html"><span class="link-menu-mobile active-menu">Blog</span></a></li>
+                <li><a href="contact.pt.html"><span class="link-menu-mobile">Contacto</span></a></li>
+                <li>
+                    <a href="blogchatgpt.uk.html"><img class="logo-language-menu" src="assets/files/uk.menu.webp" style="width=50px height=40px" alt="lingua inglesa" /></a>
+                    <a href="blogchatgpt.pt.html"><img class="logo-language-menu" src="assets/files/pt.menu.webp" style="width=50px height=40px" alt="lingua portuguesa" /></a>
+                </li>
+            </ul>
+        </div>
+        <!-- Nav Button end-->
+    </header>
+    <!-- Top Nav information start -->
+    <div class="top-nav information" id="information">
+        <div class="container information">
+            <div class="row information justify-content-between">
+                <div class="col-auto">
+                </div>
+                <div class="col-auto social-icons">
+                    <a href="https://www.facebook.com/ferreragency" target="_blank" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Facebook"><img class="logo-social" src="assets/img/logo.facebook.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Facebook"></a>
+                    <a href="https://www.instagram.com/ferreragency/" target="_blank" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Instagram"><img class="logo-social" src="assets/img/logo.instagram.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Instagram"></a>
+                    <a href="https://open.spotify.com/show/68cAmYuM4Nivm686YUz4eG" target="_blank" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Spotify"><img class="logo-social" src="assets/img/logo.spotify.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Spotify"></a>
+                    <a href="https://www.youtube.com/@ferreragency" target="_blank" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Youtube"><img class="logo-social" src="assets/img/logo.youtube.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency Youtube"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" style=" padding=0px margin=0px width=100% height=100%"
+                        alt="Ferrer Agency WhatsApp"><img class="logo-social" src="assets/img/logo.whatsapp.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Ferrer Agency WhatsApp"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Nav information start -->
+    <!-- Hero Slider start -->
+    <section class="banner-blog">
+        <div class="banner-blog-content">
+            <div class="section-title banner-blog-content row
+                                    justify-content-center">
+                <div class=" row justify-content-center margin-title-blog-new">
+                    <h1 class="home-title"><strong><span class="home-title-span"> ChatGPT</span><span class="home-title-span2"> como funciona?</span></strong></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Slider end -->
+    <!--blog-content start-->
+    <article class="privacy-policy section-padding" id="privacy-policy">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 margin-blog">
+                    <p class="text-spotify">Podcast</p>
+                    <a href="https://open.spotify.com/episode/67axKpliminovlUcIRK2Ww?si=DffAndaRRJqHE_jny-qAfw" target="_blank">
+                        <div class="position-share">
+                            <button class="btn btn-brand17">
+                    <span class="text-share">Ouça no Spotify  </span>
+                    <img
+                      class="logo-graduation"
+                      src="assets/img/spotify.svg"
+                      style=" padding=0px margin=0px width=100% height=100%"
+                      alt="blog | share | blog de tecnologia |Agência de Marketing Digital Ferrer " />
+                  </button>
+                        </div>
+                    </a>
+                    <div class="section-title-blog row justify-content-left">
+                        <h2>O que é <span>ChatGPT </span></h2>
+                    </div>
+                    <p class="blog-text">
+                        O <a href="https://chat.openai.com/chat" target="_blank"><span class="agree ">ChatGPT</span></a> é um poderoso modelo de geração de linguagem desenvolvido pela OpenAI. Ele é baseado na arquitetura GPT (Generative Pre-training Transformer),
+                        que foi treinada em um enorme conjunto de dados de texto da Internet para gerar respostas humanas a uma ampla variedade de prompts.
+                    </p>
+                    <p class="blog-text">
+                        Segundo o <a href="https://en.wikipedia.org/wiki/ChatGPT" target="_blank"><span class="agree ">artigo publicado no Wikipedia</span></a>, um dos principais recursos do ChatGPT é sua capacidade de entender e responder ao contexto,
+                        tornando-o adequado para aplicativos como chatbots, sistemas de diálogo e jogos baseados em linguagem. O modelo foi ajustado em uma tarefa específica, como interações de atendimento ao cliente, é mais provável que gere respostas
+                        mais relevantes e precisas.
+                    </p>
+                    <figure>
+                        <img src="assets/img/blog32.webp" class="blog-img justify-content-center" style=" padding=0px margin=0px width=100% height=100%" alt="blog | O que é ChatGPT: como funciona |Agência de Marketing Digital Ferrer" />
+                        <figcaption class="serv-descrption">
+                            <em><span class="blog-legend"><strong>O que é ChatGPT: como funciona</strong></span> </em>
+                        </figcaption>
+                    </figure>
+                    <div class="section-title-blog row justify-content-left">
+                        <h2>Benefícios do <span>ChatGPT</span></h2>
+                    </div>
+                    <p class="blog-text">
+                        Segundo o <a href="https://www.cnbc.com/2022/12/13/chatgpt-is-a-new-ai-chatbot-that-can-answer-questions-and-write-essays.html" target="_blank"><span class="agree ">artigo da CNBC</span></a>, um dos principais benefícios do ChatGPT
+                        é sua capacidade de gerar texto de linguagem natural de alta qualidade com o mínimo de supervisão humana. Isso pode ser útil em uma variedade de configurações, como interações de atendimento ao cliente, criação de conteúdo e redação
+                        automatizada.
+                    </p>
+                    <p class="blog-text">
+                        O ChatGPT também pode ser ajustado em uma tarefa ou conjunto de dados específico, o que pode melhorar ainda mais seu desempenho. Por exemplo, se o modelo for ajustado em um conjunto de dados de interações de atendimento ao cliente, pode ser mais provável
+                        gerar respostas relevantes e precisas quando usado em um chatbot de atendimento ao cliente.
+                    </p>
+                    <p class="blog-text">
+                        Além de sua capacidade de gerar texto, o ChatGPT também possui vários outros recursos, como resposta a perguntas e conclusão de texto. Isso o torna uma ferramenta versátil para uma ampla gama de tarefas de processamento de linguagem natural.
+                    </p>
+                    <p class="blog-text">
+                        No geral, o ChatGPT é um poderoso modelo de geração de linguagem com a capacidade de entender e responder ao contexto, gerar texto de linguagem natural de alta qualidade com supervisão mínima e ser ajustado para tarefas específicas. Seus recursos o tornam
+                        útil para uma variedade de aplicativos, como chatbots, sistemas de diálogo e escrita automatizada.
+                    </p>
+                    <div class="section-title-blog row justify-content-left">
+                        <h2><span>ChatGPT</span>: é o começo da inteligência artificial inteligente</h2>
+                    </div>
+                    <p class="blog-text">
+                        O ChatGPT, ou o "Transformador de pré-treinamento generativo", é um modelo de geração de linguagem de última geração desenvolvido pela OpenAI que representa um grande salto no campo da inteligência artificial. Esse modelo, baseado na arquitetura do transformador,
+                        foi treinado em um enorme conjunto de dados de texto da Internet e pode gerar respostas semelhantes às humanas para uma ampla variedade de prompts.
+                    </p>
+                    <p class="blog-text">
+                        Mas o ChatGPT não é apenas um modelo que pode gerar texto, ele também pode realizar outras tarefas de processamento de linguagem natural, como responder a perguntas e completar texto, o que o torna uma ferramenta versátil no campo da IA.
+                    </p>
+                    <p class="blog-text">
+                        Uma das coisas mais interessantes sobre o ChatGPT é que ele pode gerar texto de linguagem natural de alta qualidade com o mínimo de supervisão humana. Isso abre uma ampla gama de possibilidades para o futuro da IA, como a criação de chatbots de atendimento
+                        ao cliente que podem lidar com consultas complexas de clientes com o mínimo de envolvimento humano, a redação automatizada de artigos de notícias e até mesmo a criação de formas totalmente novas de entretenimento.
+                    </p>
+                    <p class="blog-text">
+                        Os recursos do ChatGPT representam apenas o começo do que é possível com inteligência artificial inteligente. À medida que mais dados se tornam disponíveis e modelos como o ChatGPT continuam a evoluir, podemos esperar uma compreensão ainda maior da linguagem
+                        humana e respostas mais precisas e humanas da IA.
+                    </p>
+                    <p class="blog-text">
+                        Concluindo, o ChatGPT é um poderoso modelo de geração de linguagem que tem a capacidade de entender e responder ao contexto, gerar texto de linguagem natural de alta qualidade com supervisão mínima e ser ajustado para tarefas específicas. Suas capacidades
+                        são um grande avanço no campo da inteligência artificial e têm o potencial de revolucionar uma ampla gama de indústrias no futuro.
+                    </p>
+                    <div class="section-title-blog row justify-content-left">
+                        <h2><span>ChatGPT </span> x Profissões Futuras</h2>
+                    </div>
+                    <p class="blog-text">
+                        À medida que a tecnologia por trás do ChatGPT e outros modelos semelhantes de IA continuam avançando, é provável que mais e mais trabalhos que atualmente exigem um toque humano se tornem automatizados. Isso terá um impacto profundo no futuro do trabalho,
+                        pois muitas pessoas podem ter seus empregos substituídos por máquinas que podem fazer o trabalho com mais eficiência e eficácia.
+                    </p>
+                    <p class="blog-text">
+                        Por exemplo, o chatbot de atendimento ao cliente desenvolvido pela ChatGPT pode lidar com consultas complexas de clientes com o mínimo de envolvimento humano e é fácil de treinar e manter. Da mesma forma, o recurso de escrita automatizada do ChatGPT pode
+                        ser usado para escrever artigos de notícias, relatórios financeiros ou até documentação técnica. Isso pode levar a uma redução no número de empregos disponíveis em áreas como atendimento ao cliente e jornalismo.
+                    </p>
+                    <figure>
+                        <img src="assets/img/blog33.webp" class="blog-img justify-content-center" style=" padding=0px margin=0px width=100% height=100%" alt="blog | O que é ChatGPT: como funciona |Agência de Marketing Digital Ferrer" />
+                        <figcaption class="serv-descrption">
+                            <em><span class="blog-legend"><strong>O que é ChatGPT: como funciona</strong></span> </em>
+                        </figcaption>
+                    </figure>
+                    <p class="blog-text">
+                        Por exemplo, o chatbot de atendimento ao cliente desenvolvido pela ChatGPT pode lidar com consultas complexas de clientes com o mínimo de envolvimento humano e é fácil de treinar e manter. Da mesma forma, o recurso de escrita automatizada do ChatGPT pode
+                        ser usado para escrever artigos de notícias, relatórios financeiros ou até documentação técnica. Isso pode levar a uma redução no número de empregos disponíveis em áreas como atendimento ao cliente e jornalismo.
+                    </p>
+                    <p class="blog-text">
+                        Mas, isso não deve ser visto como negativo. O ChatGPT e tecnologias semelhantes podem trazer muitos benefícios, como maior eficiência e precisão. A automação desses trabalhos liberará os trabalhadores humanos para se concentrarem em tarefas mais criativas
+                        e de maior valor, como resolução de problemas, pensamento estratégico e inovação.
+                    </p>
+                    <p class="blog-text">
+                        No entanto, à medida que essas tecnologias se tornarem mais predominantes, será importante garantir que os benefícios da automação sejam compartilhados de forma justa e que os trabalhadores não sejam deixados para trás. Isso provavelmente exigirá um investimento
+                        significativo em programas de reciclagem e requalificação para ajudar os trabalhadores a se adaptarem às mudanças no mercado de trabalho.
+                    </p>
+                    <figure>
+                        <img src="assets/img/blog34.webp" class="blog-img justify-content-center" style=" padding=0px margin=0px width=100% height=100%" alt="blog | O que é ChatGPT: como funciona |Agência de Marketing Digital Ferrer" />
+                        <figcaption class="serv-descrption">
+                            <em><span class="blog-legend"><strong>O que é ChatGPT: como funciona</strong></span> </em>
+                        </figcaption>
+                    </figure>
+                    <p class="blog-text">
+                        Concluindo, o ChatGPT é um poderoso modelo de geração de linguagem que tem o potencial de remodelar o futuro do trabalho. Com sua capacidade de entender e responder ao contexto, gerar texto em linguagem natural de alta qualidade com supervisão mínima
+                        e ser ajustado para tarefas específicas, será importante garantir que seus benefícios sejam compartilhados de forma justa e que os trabalhadores não sejam deixados para trás. O governo e a indústria privada precisam investir em
+                        programas de reciclagem e requalificação para ajudar os trabalhadores a se adaptarem às mudanças no mercado de trabalho.
+                    </p>
+                    <div class="section-title-blog row justify-content-left">
+                        <h2><span>ChatGPT</span>: Até onde vai evoluir?</h2>
+                    </div>
+                    <p class="blog-text">
+                        Uma das características mais notáveis do ChatGPT é sua capacidade de entender e responder ao contexto, o que permite gerar texto altamente relevante e preciso. Isso o torna uma ferramenta poderosa para aplicativos como chatbots, escrita automatizada e
+                        até jogos baseados em linguagem. À medida que a tecnologia por trás do ChatGPT e outros modelos semelhantes de IA continuam avançando, espera-se que ela seja capaz de lidar com tarefas cada vez mais sofisticadas.
+                    </p>
+                    <p class="blog-text">
+                        Os avanços no processamento de linguagem natural e geração de modelos de texto como ChatGPT estão evoluindo rapidamente e espera-se que eles se tornem melhores na compreensão das nuances e sutilezas da linguagem humana. Isso permitirá que os modelos entendam
+                        e respondam melhor às consultas humanas, resultando em respostas mais precisas e semelhantes às humanas. Isso pode ser especialmente útil em aplicativos como chatbots de atendimento ao cliente, onde a capacidade de entender e responder
+                        ao contexto é fundamental para uma comunicação eficaz.
+                    </p>
+                    <p class="blog-text">
+                        Outra área em que o ChatGPT e outros modelos semelhantes podem ter um grande impacto é a criação de conteúdo, como redação de artigos de notícias, relatórios financeiros ou até mesmo documentação técnica. Esses modelos podem ser treinados em vários conjuntos
+                        de dados específicos para poder escrever sobre tópicos específicos e, com a capacidade de escrever artigos fluentes e coerentes, isso pode reduzir bastante o tempo gasto na redação e edição e aumentar a velocidade de publicação.
+                    </p>
+                    <p class="blog-text">
+                        No entanto, com qualquer nova tecnologia, também há preocupações sobre os possíveis impactos negativos. Uma das maiores preocupações com modelos de geração de linguagem como o ChatGPT é o potencial de serem usados para fins maliciosos, como gerar notícias
+                        falsas ou se passar por indivíduos online. É importante que pesquisadores e desenvolvedores estejam cientes desses riscos potenciais e trabalhem ativamente para mitigá-los
+                    </p>
+                    <p class="blog-text">
+                        Em conclusão, o ChatGPT é um poderoso modelo de geração de linguagem que já mostrou seu potencial em uma ampla gama de aplicações. Com sua capacidade de entender e responder ao contexto, gerar texto de linguagem natural de alta qualidade com supervisão
+                        mínima e ser ajustado para tarefas específicas, espera-se que continue a evoluir e se tornar melhor. Embora os avanços nessa tecnologia tenham um enorme potencial, é importante também considerar os possíveis impactos negativos
+                        e trabalhar para mitigá-los.
+                    </p>
+                    <div class="section-title-blog row justify-content-left">
+                        <h2>Exemplos de uso do <span>ChatGPT</span></h2>
+                    </div>
+                    <p class="blog-text">
+                        Neste artigo, exploraremos alguns exemplos de como o ChatGPT está sendo usado no mundo real.
+                    </p>
+                    <p class="blog-text">
+                        - Assistentes virtuais: ChatGPT pode ser usado para criar assistentes virtuais que podem entender e responder a consultas de linguagem natural. Isso o torna ideal para uso em chatbots de atendimento ao cliente, onde pode ajudar a responder a perguntas
+                        frequentes e resolver problemas.
+                    </p>
+                    <p class="blog-text">
+                        - Geração de conteúdo: o ChatGPT pode ser usado para gerar conteúdo escrito de alta qualidade, como artigos, postagens de blog e até mesmo livros inteiros. Isso o torna uma ferramenta valiosa para profissionais de marketing de conteúdo e escritores que
+                        desejam aumentar sua produtividade.
+                    </p>
+                    <p class="blog-text">
+                        - Tradução de idiomas: o ChatGPT pode ser treinado em um grande corpus de texto traduzido para criar um modelo de tradução automática. Isso pode ajudar a melhorar a qualidade da tradução automática e torná-la mais acessível a uma ampla gama de usuários
+                    </p>
+                    <figure>
+                        <img src="assets/img/blog35.webp" class="blog-img justify-content-center" style=" padding=0px margin=0px width=100% height=100%" alt="blog | O que é ChatGPT: como funciona |Agência de Marketing Digital Ferrer" />
+                        <figcaption class="serv-descrption">
+                            <em><span class="blog-legend"><strong>O que é ChatGPT: como funciona</strong></span> </em>
+                        </figcaption>
+                    </figure>
+                    <p class="blog-text">
+                        - Geração de diálogo: o ChatGPT pode ser usado para gerar diálogos realistas e envolventes entre personagens em um videogame ou em uma experiência de realidade virtual. Isso pode ajudar a criar experiências mais imersivas e interativas para os usuários.
+                    </p>
+                    <p class="blog-text">
+                        - Sumarização de texto: ChatGPT pode ser usado para resumir grandes blocos de texto, tornando mais fácil para os usuários entenderem rapidamente os pontos principais. Isso pode ser útil em uma variedade de aplicações, como resumo de notícias e análise
+                        de documentos jurídicos.
+                    </p>
+                    <p class="blog-text">
+                        - Completação de texto: ChatGPT pode ser usado para completar um texto parcialmente escrito, como uma frase ou um parágrafo. Isso pode ser útil em uma variedade de aplicativos, como editores de texto, geração de conteúdo ou até mesmo em teclados móveis.
+                    </p>
+                    <p class="blog-text">
+                        O ChatGPT é um modelo de linguagem poderoso que tem a capacidade de entender e gerar texto semelhante ao humano. Como esses exemplos ilustram, ele tem o potencial de revolucionar uma ampla gama de indústrias e aplicações.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--blog-content end-->
+    <!--blog-QR Code start-->
+    <section class="blogs">
+        <div class="container">
+            <div class="row row justify-content-center">
+                <div class="col-lg-8">
+                    <!--botão iniciar compartilhamento-->
+                    <div class="position-share">
+                        <button class="btn btn-brand4" id="shareBtn">
+                <span class="text-share">Compartilhar</span>
+                <img
+                  class="logo-graduation"
+                  src="assets/img/share.white.svg"
+                  style=" padding=0px margin=0px width=100% height=100%"
+                  alt="share | blog da tecnologia |Agência de Marketing Digital Ferrer" />
+              </button>
+                    </div>
+                    <script type="text/javascript">
+                        /*--share button--*/
+                        const shareBtn = document.getElementById('shareBtn');
+
+                        shareBtn.addEventListener('click', (event) => {
+                            // Check for Web Share api support
+                            if (navigator.share) {
+                                // Browser supports native share api
+                                navigator
+                                    .share({
+                                        text: 'Blog de tecnologia ChatGPT: Como funciona',
+                                        url: 'https://ferreragency.eu/blogchatgpt.pt.html',
+                                    })
+                                    .then(() => {
+                                        console.log('Thanks for sharing!');
+                                    })
+                                    .catch((err) => console.error(err));
+                            } else {
+                                // Fallback
+                                alert(
+                                    'The current browser does not support the share function. Please, manually share the link'
+                                );
+                            }
+                        });
+                    </script>
+                    <!--button share end-->
+                    <div class="content-new-qr">
+                        <div class="card-new-qr">
+                            <div class="top-card">
+                                <img src="assets/files/qrblogchatgpt.pt.webp" class="card-img-top-qr" width="200px" height="200px" style=" padding=0px margin=0px width=100% height=100%" alt="share | blog da tecnologia |Agência de Marketing Digital Ferrer" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--blog-QR Code end-->
+    <!--section youtube start-->
+    <section class="product">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 margin-youtube">
+                    <h2 class="product-category">Artigos Relacionados no <img class="logo-youtube" src="assets/img/youtube.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Artigos Relacionados no Youtube" /></h2>
+                    <button class="pre-btn" id="prev-btn" aria-label="preview"><img src="assets/img/arrow.svg" alt="anterior youtube"></button>
+                    <button class="nxt-btn" id="next-btn" aria-label="next"><img src="assets/img/arrow.svg" alt="próximo youtube"></button>
+                    <div class="product-container">
+                        <a href="https://youtu.be/6sjjIMII2Qw" target="_blank">
+                            <div class="product-card">
+                                <img src="assets/img/youtube.blog5g.pt.webp" class="card-youtube" style=" padding=0px margin=0px width=100% height=100%" alt="5G Tecnologia e o futuro | A revolição tecnológica" />
+                                <div class="product-info">
+                                    <h2 class="product-brand">5G Tecnologia e o futuro...</h2>
+                                    <p class="product-short-description">
+                                        A tecnologia 5G é a mais recente e melhor em... </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://youtu.be/jqIj4I1_H-4" target="_blank">
+                            <div class="product-card">
+                                <img src="assets/img/youtube.blogartificialintelligence.pt.webp" class="card-youtube" style=" padding=0px margin=0px width=100% height=100%" alt="O que é Inteligência Artificial" />
+                                <div class="product-info">
+                                    <h2 class="product-brand">O que é Inteligência Artificial</h2>
+                                    <p class="product-short-description">A tecnologia 5G é a mais recente e melhor em...</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://youtu.be/HfpSRSZbZZA" target="_blank">
+                            <div class="product-card">
+                                <img src="assets/img/youtube.blogblockchain.pt.webp" class="card-youtube" style=" padding=0px margin=0px width=100% height=100%" alt="Tecnologias Blockchain" />
+                                <div class="product-info">
+                                    <h2 class="product-brand">Tecnologias Blockchain</h2>
+                                    <p class="product-short-description">A tecnologia Blockchain é um livro digital descentrali...</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://youtu.be/wT4L8BNKQxw" target="_blank">
+                            <div class="product-card">
+                                <img src="assets/img/youtube.blogchatgpt.pt.webp" class="card-youtube" style=" padding=0px margin=0px width=100% height=100%" alt="ChatGPT como funciona?" />
+                                <div class="product-info">
+                                    <h2 class="product-brand">ChatGPT como funciona?</h2>
+                                    <p class="product-short-description">O ChatGPT é um poderoso modelo de geração de lin...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section youtube end-->
+    <!--Search Bar start-->
+    <div class="search-bar">
+        <div class="container">
+            <br>
+            <div class="row justify-content-center col-lg-12 text-center">
+                <div class="section-title-hire">
+                    <span><a href="blog.pt.html" alt="Blog | Tecnologia | Viagens | Marketing Digital | Finanças | Cozinhar |Agência de Marketing Digital Ferrer" class="btn btn-brand20">Todos</a></span>
+                    <span><a href="blog.tech.pt.html"  alt="Blog | Tecnologia | Viagens | Marketing Digital | Finanças | Cozinhar |Agência de Marketing Digital Ferrer" class="btn btn-brand21">Tecnologia</a></span>
+                    <span><a href="blog.emp.pt.html" alt="Blog | Tecnologia | Viagens | Marketing Digital | Finanças | Cozinhar |Agência de Marketing Digital Ferrer" class="btn btn-brand20">Marketing</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Search Bar end-->
+    <!--blog-content start-->
+    <section class="blogs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="content-new">
+                        <div class="card-new">
+                            <div class="top-card">
+                                <a href="blog5g.pt.html"><img src="assets/img/blog5g.webp" class="card-img-top" style=" padding=0px margin=0px width=100% height=100%" alt="5g o que muda em nossas vidas? | blog da tecnologia |Agência de Marketing Digital Ferrer" /></a>
+                            </div>
+                            <div class="mediaCard"></div>
+                            <div class="bottomCard">
+                                <a class="card-title" href="blog5g.pt.html">5G o que muda em nossas vidas?</a
+                  >
+                  <br />
+                  <a
+                    class="bottomText"
+                    href="blog5g.pt.html"
+                    >A 5G mudará nossas vidas, desde a indústria 4.0...</a
+                  >
+                  <div class="actionCard">
+                    <hr class="mx-auto w-10" />
+                    <a
+                      href="blog5g.pt.html"
+                      class="card-read"
+                      >LEIA MAIS ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="content-new">
+              <div class="card-new">
+                <div class="top-card">
+                  <a href="blogblockchain.pt.html"
+                    ><img
+                      src="assets/img/blogblockchain.webp"
+                      class="card-img-top"
+                      style=" padding=0px margin=0px width=100% height=100%"
+                      alt="As novas tecnologias blockchain? | blog da tecnologia |Agência de Marketing Digital Ferrer"
+                  /></a>
+                            </div>
+                            <div class="mediaCard"></div>
+                            <div class="bottomCard">
+                                <a class="card-title" href="blogblockchain.pt.html">As novas tecnologias Blockchain?</a
+                  >
+                  <br />
+                  <a
+                    class="bottomText"
+                    href="blogblockchain.pt.html"
+                    >Blockchain é a tecnologia mais segura do mundo...</a
+                  >
+                  <div class="actionCard">
+                    <hr class="mx-auto w-10" />
+                    <a
+                      href="blogblockchain.pt.html"
+                      class="card-read"
+                      >LEIA MAIS ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="content-new">
+              <div class="card-new">
+                <div class="top-card">
+                  <a
+                    href="blogartificialintelligence.pt.html
+                                        "
+                    ><img
+                      src="assets/img/blogartificialintelligence.webp
+                                            "
+                      class="card-img-top"
+                      style=" padding=0px margin=0px width=100% height=100%"
+                      alt="Inteligencia artificial pensa? | blog da tecnologia |Agência de Marketing Digital Ferrer"
+                  /></a>
+                            </div>
+                            <div class="mediaCard"></div>
+                            <div class="bottomCard">
+                                <a class="card-title" href="blogartificialintelligence.pt.html
+                                        ">Inteligência artificial pensa?</a
+                  >
+                  <br />
+                  <a
+                    class="bottomText"
+                    href="blogartificialintelligence.pt.html"
+                    >O conceito de Inteligência Artificial chegou em...</a
+                  >
+                  <div class="actionCard">
+                    <hr class="mx-auto w-10" />
+                    <a
+                      href="blogartificialintelligence.pt.html
+                                            "
+                      class="card-read"
+                      >LEIA MAIS ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="content-new">
+              <div class="card-new">
+                <div class="top-card">
+                  <a href="blogsmartcontacts.pt.html "
+                    ><img
+                      src="assets/img/blogsmartcontracts.webp "
+                      class="card-img-top"
+                      style=" padding=0px margin=0px width=100% height=100%"
+                      alt="O que são smart contracts? | blog da tecnologia |Agência de Marketing Digital Ferrer"
+                  /></a>
+                            </div>
+                            <div class="mediaCard"></div>
+                            <div class="bottomCard">
+                                <a class="card-title" href="blogsmartcontacts.pt.html ">O que são smart contracts?</a
+                  >
+                  <br />
+                  <a
+                    class="bottomText"
+                    href="blogsmartcontacts.pt.html"
+                    >Saiba como será o fim da burocracia com smarts...</a
+                  >
+                  <div class="actionCard">
+                    <hr class="mx-auto w-10" />
+                    <a
+                      href="blogsmartcontacts.pt.html "
+                      class="card-read"
+                      >LEIA MAIS ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="content-new">
+              <div class="card-new">
+                <div class="top-card">
+                  <a href="blogntfs.pt.html "
+                    ><img
+                      src="assets/img/blogntfs.webp "
+                      class="card-img-top"
+                      style=" padding=0px margin=0px width=100% height=100%"
+                      alt="O que são NFTS e como funcionam? | blog da tecnologia |Agência de Marketing Digital Ferrer"
+                  /></a>
+                            </div>
+                            <div class="mediaCard"></div>
+                            <div class="bottomCard">
+                                <a class="card-title" href="blogntfs.pt.html ">Como funcionam a NFTs?</a
+                  >
+                  <br />
+                  <a
+                    class="bottomText"
+                    href="blogntfs.pt.html"
+                    >Saiba como proteger seus direitos de coleciona...</a
+                  >
+                  <div class="actionCard">
+                    <hr class="mx-auto w-10" />
+                    <a
+                      href="blogntfs.pt.html "
+                      class="card-read"
+                      >LEIA MAIS ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="content-new">
+              <div class="card-new">
+                <div class="top-card">
+                  <a href="blogwhy.pt.html "
+                    ><img
+                      src="assets/img/blogwhy.webp"
+                      class="card-img-top"
+                      style=" padding=0px margin=0px width=100% height=100%"
+                      alt="Porwue ter um website? | blog da tecnologia |Agência de Marketing Digital Ferrer"
+                  /></a>
+                            </div>
+                            <div class="mediaCard"></div>
+                            <div class="bottomCard">
+                                <a class="card-title" href="blogwhy.pt.html
+                                        ">Porque ter um website?</a
+                  >
+                  <br />
+                  <a
+                    class="bottomText"
+                    href="blogwhy.pt.html"
+                    >O consumidor mudou, ele está comprando online...</a
+                  >
+                  <div class="actionCard">
+                    <hr class="mx-auto w-10" />
+                    <a
+                      href="blogwhy.pt.html "
+                      class="card-read"
+                      >LEIA MAIS ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center ">
+            <div class="section-title-more-blog row justify-content-center">
+                <h2>Veja mais notícias<br><br><span><a href="blog.pt.html"alt="Successful websitesAgência de Marketing Digital Ferrer" class="btn-brand9">acesse</a></span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+    <!--blog-content end-->
+    <!--Chatbot start-->
+    <div class="chat_icon">
+        <img class="logo-chat" src="assets/img/chat.webp" style=" padding=0px margin=0px width=100% height=100%" alt="Contact | Chat | Ferrer Digital Marketing Agency" aria-hidden="true">
+    </div>
+    <div class="chat_box">
+        <div class="my-conv-form-wrapper">
+            <div class="modal-header">
+                <label class="logo-modal"><img src="assets/files/robert-ferrer.webp" class="logo" width=164px height=50px alt="Ferrer Agency"></label>
+            </div>
+            <section id="demo">
+                <div class="vertical-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3 col-xs-offset-0">
+                                <div class="card no-border">
+                                    <div id="chat">
+                                        <form action="https://formsubmit.co/ferrernomad@hotmail.com" method="POST" class="hidden">
+                                            <fieldset>
+                                                <div class="col-lg-12 ">
+                                                    <!--Questions 1 start-->
+                                                    <input data-conv-question="Olá, tudo bem! Somos a <br><strong>Ferrer Digital Agency</strong>. <br><br>Entraremos em contacto assim que possível. Por favor, deixe seu nome, <br>e-mail e descreva do que precisa." type="text" data-minlength="6" id="senha"
+                                                        name="Chatbot - contato" required placeholder="Do que precisa?">
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- ChatBot -->
+    <script type="text/javascript" src="assets/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/autosize.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.convform.pt.js"></script>
+
+    <script>
+        jQuery(function($) {
+            var count = 0;
+            var convForm = $('#chat').convform({
+                eventList: {
+                    onInputSubmit: function(convState, ready) {
+                        console.log('input is being submitted...');
+                        //here you send the response to your API, get the results and build the next question
+                        //when ready, call 'ready' callback (passed as the second parameter)
+                        if (convState.current.answer.value === 'end') {
+                            convState.current.next = false;
+                            //emulating random response time (100-600ms)
+                            setTimeout(ready, Math.random() * 500 + 100);
+                        } else {
+                            if (Array.isArray(convState.current.answer)) var answer = convState.current.answer.join(', ');
+                            else var answer = convState.current.answer.text;
+                            convState.current.next = convState.newState({
+                                type: 'select',
+                                noAnswer: true,
+                                name: 'dynamic-question-' + count,
+                                questions: ['Obrigado'],
+                            });
+                            convState.current.next.next = convState.newState({
+                                type: 'select',
+                                name: 'dynamic-question-' + count,
+                                questions: ['Click em enviar, e em breve nossa equipe entrará em contacto'],
+                                answers: [{
+                                    text: 'Enviar',
+                                    value: 'end'
+                                }]
+                            });
+                            //emulating random response time (100-600ms)
+                            setTimeout(ready, Math.random() * 500 + 100);
+                        }
+                        count++;
+                    }
+                }
+            });
+        });
+    </script>
+    <!--Chatbot end-->
+    <!--Hire-me Section Start-->
+    <section class="hire-me-space">
+        <div class="hire-me">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title-hire">
+                            <h2>
+                                Vamos trabalhar <span class="text-info">juntos</span
+                  ><span
+                    ><a
+                      href="contact.pt.html"
+                      style=" padding=0px margin=0px width=100% height=100%"
+                      alt="chat | contacto | blog da tecnologia |Agência de Marketing Digital Ferrer"
+                      class="btn btn-brand2"
+                      >Contrate-nos</a
+                    ></span
+                  >
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hire-me Section end-->
+                   <!--Footer start-->
+    <footer class="footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col ">
+                      <img class="logo-footer" width=164 height=50px src="assets/files/robert-ferrer.webp" alt="Ferrer Digital Agency">
+                        <p class="about-footer">
+                            Somos uma Agência de Marketing Digital. Criamos projetos com conexões emocionais entre a marca e o consumidor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-col ">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="google-adwords.pt.html">Google Ads</a>
+                            </li>
+                            <li>
+                                <a href="websites.pt.html">Landing page</a>
+                            </li>
+                            <li>
+                                <a href="social-media.pt.html">Redes Sociais</a>
+                            </li>
+                            <li>
+                              <a href="blog.pt.html">Blog</a>
+                          </li>
+                          <li>
+                            <a href="contact.pt.html">Contacto</a>
+                        </li>
+                        </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col ">
+                        <h3>Links Importantes</h3>
+                        <ul>
+                            <li>
+                                <a href="culture.pt.html">Cultura</a>
+                            </li>
+                            <li>
+                                <a href="faq.pt.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="https://www.livroreclamacoes.pt/Inicio/"  target="_blank">Livros de Reclamações</a>
+                            </li>
+                            <li>
+                                <a href="missionvalues.pt.html">Missão e
+                                    Valores</a>
+                            </li>
+                            <li>
+                                <a href="privacypolicy.pt.html">Política de
+                                    Privacidade</a>
+                            </li>
+                            <li>
+                                <a href="termsofuse.pt.html">Termo de Uso</a>
+                            </li>   
+                            <li>
+                              <a href="workwithus.pt.html">Trabalhe Conosco</a>
+                          </li>                               
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-col ">
+                        <h3>Mídia Social</h3>
+                        <div class="social-menu">
+                          <h4 class="footer-title-social">Siga-nos nas redes sociais</h4>
+                          <a href="https://www.facebook.com/ferreragency" target="_blank"><img src="assets/img/logo.facebook.blue.svg" alt="Ferrer Agency Facebook" class="footer-social-follow"></a>
+                          <a href="https://www.instagram.com/ferreragency/" target="_blank"><img src="assets/img/logo.instagram.blue.svg" alt="Ferrer Agency Instagram" class="footer-social-follow"></a>
+                          <a href="https://open.spotify.com/show/68cAmYuM4Nivm686YUz4eG" target="_blank"><img src="assets/img/logo.spotify.blue.svg" alt="Ferrer Agency Spotify" class="footer-social-follow"></a>
+                          <a href="https://www.youtube.com/@ferreragency" target="_blank"><img src="assets/img/logo.youtube.blue.svg" alt="Ferrer Agency Youtube" class="footer-social-follow"></a>
+                          <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank"><img src="assets/img/logo.whatsapp.blue.svg" alt="Ferrer Agency WhatsApp" class="footer-social-follow"></a>
+                 </div>
+                 <h4 class="footer-title-social">Newsletter</h4>
+                    <form action="https://formsubmit.co/ferrernomad@hotmail.com" method="POST">
+                      <fieldset>
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <div class="form-group">
+                              <input
+                                name="Newsletter registration"
+                                type="email"
+                                placeholder="Registre seu e-mail"
+                                class="newsletter-email-input"
+                                maxlength="30"
+                                required />
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group">
+                              <button type="submit "class="btn btn-brand34">Send</button>
+                            </div>
+                          </div>
+                        <div class="footer-checkbox-privacy-en">
+                          <input type="checkbox" id="input-2" checked="checked" class="check-input" required>
+                          <label for="input-2" class="checkbox">
+                              <svg viewBox="0 0 22 16" fill="none">
+                                  <path d="M1 6.85L8.09677 14L21 1" />
+                              </svg>
+                          </label>
+                          <span class="footer-form-agree-text">Eu concordo com a </span><a href="https://ferreragency.eu/privacypolicy.pt.html" target="_blank"><span class="footer-form-agree-main "> Política de Privacidade</span>.</a>
+                        </div>
+                        </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-12 company">
+                    <p class="copyright-text ">&copy;<small> Copyright
+                            2023 Todos os direitos reservados <strong>Ferrer Digital Agency</strong></small></p>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <!--Footer end-->
+        <!-- jquery js -->
+        <script src="assets/js/jquery.min.js "></script>
+        <!-- main js -->
+        <script src="assets/js/main.js "></script>
+        <!-- ChatBot -->
+        <script src="assets/js/chat.jquery.js"></script>
+        <script src="assets/js/chat.js"></script>
+</body>
+
+</html>

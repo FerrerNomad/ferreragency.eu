@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="email2.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.1596875"
+     inkscape:cx="670.05871"
+     inkscape:cy="-56.360078"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <path
+     d="M0 0h48v48H0z"
+     fill="none"
+     id="path2" />
+  <g
+     id="Shopicon"
+     style="fill:#004e49;fill-opacity:1"
+     transform="matrix(0.69941292,0,0,0.69941292,7.5898242,7.6649707)">
+    <path
+       d="M 42.371,8.8 C 41.705,8.304 40.89,8 40,8 H 8 C 7.11,8 6.295,8.304 5.629,8.8 L 24,27.172 Z"
+       id="path4"
+       style="fill:#004e49;fill-opacity:1" />
+    <path
+       d="M 4,12.828 V 36 c 0,2.2 1.8,4 4,4 h 32 c 2.2,0 4,-1.8 4,-4 V 12.828 l -20,20 z"
+       id="path6"
+       style="fill:#004e49;fill-opacity:1" />
+  </g>
+</svg>

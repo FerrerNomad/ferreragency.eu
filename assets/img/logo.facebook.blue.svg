@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   id="meteor-icon-kit__regular-facebook"
+   fill="none"
+   version="1.1"
+   sodipodi:docname="logo.facebook.blue.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.63875"
+     inkscape:cx="400.78278"
+     inkscape:cy="400.78278"
+     inkscape:window-width="1360"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="meteor-icon-kit__regular-facebook" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 24,12.093933 C 24,5.4665135 18.6274,0.09393346 12,0.09393346 c -6.62742,0 -12,5.37258004 -12,11.99999954 0,5.9895 4.38823,10.954 10.125,11.8542 v -8.3854 H 7.07812 v -3.4688 H 10.125 V 9.4501835 c 0,-3.0075 1.7915,-4.66875 4.5326,-4.66875 1.3129,0 2.6862,0.23438 2.6862,0.23438 v 2.95312 h -1.5132 c -1.4907,0 -1.9556,0.92501 -1.9556,1.87399 v 2.2510095 h 3.3281 l -0.532,3.4688 H 13.875 v 8.3854 C 19.6118,23.047933 24,18.083433 24,12.093933 Z"
+     fill="#758CA3"
+     id="path2"
+     style="fill:#0c465f;fill-opacity:1" />
+</svg>

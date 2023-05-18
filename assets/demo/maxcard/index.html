@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="creator" content="Ferrer Digital Agency">
+    <meta name="title" property="og:title" content="MaxCard | Ferrer Digital Agency">
+    <meta name="description" content="Somos uma Agência de Marketing Digital, especializada em Criação de Conteúdo, Media Social, Marketing Digital e Websites">
+    <meta name="language" content="pt-pt">
+    <meta property="og:locale" content="pt-pt">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#0c465f" />
+    <meta name="msapplication-TileImage" content="assets/files/robertferrer-144x144.webp" />
+    <meta property="og:image:alt" content="Ferrer Digital Agency logo">
+    <meta name="google-site-verification" content="LUqEEkKtYIvVh0Ls4PvWsWF2V5y3NO3rzqcVw3hnaPw" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ferrer Digital Agency">
+    <meta name="url" property="og:url" content="https://ferreragency.eu/" />
+    <meta name="image" property="og:image" content="https://ferreragency.eu/assets/files/robert-ferrer.webp" />
+    <meta name="image" property="og:image:width" content="300" />
+    <meta name="image" property="og:image:height" content="300" />
+    <link rel="canonical" href="https://ferreragency.eu/index.html">
+    <link rel="icon" class="logo2" href="assets/files/logomini.svg">
+    <!-- LGPD of AdOpt start-->
+    <meta name="adopt-website-id" content="081d0ba6-2a3e-4d21-8211-c399a13897fc" />
+    <script src="//tag.goadopt.io/injector.js?website_code=081d0ba6-2a3e-4d21-8211-c399a13897fc" class="adopt-injector"></script>
+    <!-- LGPD of AdOpt end-->
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Movement Section --
+    <link rel="stylesheet" href="./assets/css/aos.min.css">-->
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MaxCard | Ferrer Digital Agency</title>
+</head>
+
+<body class="white">
+    <header>
+        <!--Popup Screen start--
+        <div class="popup-screen">
+            <div class="popup-box">
+                <i class="fas fa-times close-btn"></i>
+                <h2>Popup Box</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="btn">Subscribe</a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            const popupScreen = document.querySelector(".popup-screen");
+            const popupBox = document.querySelector(".popup-box");
+            const closeBtn = document.querySelector(".close-btn");
+
+            window.addEventListener("load", () => {
+                setTimeout(() => {
+                    popupScreen.classList.add("active");
+                }, 2000); //Popup the screen in 02 seconds after the page is loaded.
+            });
+
+            closeBtn.addEventListener("click", () => {
+                popupScreen.classList.remove("active"); //Close the popup screen on click the close button.
+                //Create a cookie for a day (to expire within a day) on click the close button.
+                document.cookie = "WebsiteName=testWebsite; max-age=" + 24 * 60 * 60; //1 day = 24 hours = 24*60*60
+            });
+
+            //Use the created cookie to hide or show the popup screen.
+            const WebsiteCookie = document.cookie.indexOf("WebsiteName=");
+
+            if (WebsiteCookie != -1) {
+                popupScreen.style.display = "none"; //Hide the popup screen if the cookie is not expired.
+            } else {
+                popupScreen.style.display = "flex"; //Show the popup screen if the cookie is expired.
+            }
+        </script>
+        --Popup Screen end-->
+        <!-- Nav Button start-->
+        <nav class="navbar navbar-expand-lg navbar-light menu-color fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" width=164px height=50px alt="Ferrer Agency" src="assets/files/robert-ferrer.webp" style=" padding=0px margin=0px width=100% height=100%" alt="get in touch |Agência de Marketing Digital Ferrer" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#brand">MaxCard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#flags">Bandeiras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#tax">Pedir Maquininha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#testimonials">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#faq">Dúvidas</a>
+                        </li>
+                    </ul>
+                    <div class="language-menu">
+                        <a href="index.uk.html"><img class="logo-language" src="assets/files/uk.webp" style="width=26px height=22px" alt="lingua inglesa" /></a>
+                        <a href="index.html"><img class="logo-language" src="assets/files/pt.webp" style="width=26px height=22px" alt="lingua portuguesa" /></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <input class="menu-control" type="checkbox" id="active" />
+        <a href="index.html" class="logo-brand"><i>
+            <img
+          class="logo-brand-menu" width=164px height=50px
+              src="assets/files/robert-ferrerC.webp"
+              alt="Ferrer Digital Agency" /></i></a>
+        <label for="active" class="menu-btn"><i
+            ><img
+              class="brand-menu"
+              style=" padding=0px margin=0px width=100% height=100%"
+              src="assets/files/menu-button.svg"
+              alt="Menu" /></i>
+      </label>
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html#hero"><span class="link-menu-mobile ">Home</span></a></li>
+                <li><a href="index.html#brand"><span class="link-menu-mobile ">MaxCard</span></a></li>
+                <li><a href="index.html#flags"><span class="link-menu-mobile ">Bandeiras</span></a></li>
+                <li><a href="index.html#tax"><span class="link-menu-mobile ">Pedir<span class="letter-transparent">_</span><span class="letter-transparent"></span>Maquininha</span></a></li>
+                <li><a href="index.html#testimonials"><span class="link-menu-mobile ">Depoimentos</span></a></li>
+                <li><a href="index.html#faq"><span class="link-menu-mobile ">Dúvidas</span></a></li>
+                <li>
+                    <a href="index.uk.html"><img class="logo-language-menu" src="assets/files/uk.menu.webp" style="width=50px height=40px" alt="lingua inglesa" /></a>
+                    <a href="index.html"><img class="logo-language-menu" src="assets/files/pt.menu.webp" style="width=50px height=40px" alt="lingua portuguesa" /></a>
+                </li>
+            </ul>
+        </div>
+        <!-- Nav Button end-->
+    </header>
+    <!-- Top Nav information start -->
+    <div class="top-nav information body" id="information">
+        <div class="container information">
+            <div class="row information justify-content-between">
+                <div class="col-auto">
+                </div>
+                <div class="col-auto social-icons">
+                    <a href="tel:+5514998608309" target="_blank" width=100% height=100% alt="Phone"><img class="logo-social" src="assets/img/phone.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Phone"></a>
+                    <a href="mailto:ferrernomad@gmail.com" target="_blank" width=100% height=100% alt="Email"><img class="logo-social" src="assets/img/email.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Email"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" width=100% height=100% alt="WhatsApp"><img class="logo-social" src="assets/img/whatsapp2.svg" width=100% height=100% alt="WhatsApp"></a>
+                    <a href="https://www.facebook.com/ferreragency/" target="_blank" width=100% height=100% alt="facebook"><img class="logo-social" src="assets/img/facebook.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/ferreragency/" target="_blank" width=100% height=100% alt="instagram"><img class="logo-social" src="assets/img/instagram.svg" width=100% height=100% alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Nav information start -->
+    </header>
+    <!-- Hero Slider start -->
+    <section class="hero" id="hero">
+        <div class="owl-carousel owl-theme hero-slider">
+            <div class="slide slide1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 margin-titles">
+                            <h1 class="title-hero-up">Venda Mais Com</h1>
+                            <p class="title-hero">Recebimento em 1 Dia e Menores Taxas</p>
+                            <p class="subtitle-hero">A Maquininha MaxCard Tem os Melhores Benefícios e é o Ideial para Você Vender Mais</p>
+                            <div class="btns-hero">
+                                <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" class="btn btn-outline-light">Peça Já a!</a>
+                                <a href="index.html#contact" class="btn btn-light btn-positon">Fale Conosco</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 margin-titles2">
+                            <h1 class="title-hero-up">Aproveite Está Oportunidade</h1>
+                            <p class="title-hero">Maquininha de Cartão</p>
+                            <p class="subtitle-hero">Garanta Sua Maquininha de Cartão com as Melhores Taxas do Mercado!</p>
+                            <div class="btns-hero">
+                                <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" class="btn btn-outline-light">Peça Já a Sua!</a>
+                                <a href="#services-card" class="btn btn-light btn-positon">Nossa Vantagens</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Slider end -->
+    <!--Brand Section start-->
+    <section class="brand" id="brand">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="brand-item text-center">
+                        <h2 class="brand-title text-right">Menor Taxa e Aluguel Zero</h2>
+                        <h3 class="brand-subtitle text-right">Vantagem da MaxCard!</h3>
+                        <p class="brand-text text-right">Oferecemos aos nossos clientes soluções completas para seus negócios, para receber e enviar pagamentos com praticidade e segurança. A maquininha MaqMax é perfeita para todo tipo de negócio e possui inúmeras vantagens e facilidades
+                            para você. Confira!</p>
+                        <a href="index.html#contact" class="btn btn-outline-light">Peça a Sua</a>
+                        <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" class="btn btn-light btn-positon">Pedir por WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Brand Section end-->
+    <!--Services Section start-->
+    <section id="services-card" class="services-card">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card-services">
+                        <figure>
+                            <img src="assets/img/cd1.webp" class="services-card-img" alt="Venda em 12x">
+                            <figcaption class="justify-content-center align-content-center legend-services">
+                                <em><span class="legend-services text-center">Parcele 12 vezes</span> </em>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card-services">
+                        <figure>
+                            <img src="assets/img/cd2.webp" class="services-card-img" alt="Receba em 1 dia">
+                            <figcaption class="justify-content-center align-content-center legend-services">
+                                <em><span>Receba em 1 dia</span> </em>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card-services">
+                        <figure>
+                            <img src="assets/img/cd4.webp" class="services-card-img" alt="VPagamento por link PIX">
+                            <figcaption class="justify-content-center align-content-center legend-services">
+                                <em><span>Pagamento por PIX</span> </em>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card-services">
+                        <figure>
+                            <img src="assets/img/cd5.webp" class="services-card-img" alt="Visualise relatórios">
+                            <figcaption class="justify-content-center align-content-center legend-services">
+                                <em><span>Visualise relatórios</span> </em>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card-services">
+                        <figure>
+                            <img src="assets/img/cd7.webp" class="services-card-img" alt="Bateria com carga rápida">
+                            <figcaption class="justify-content-center align-content-center legend-services">
+                                <em><span>Carga rápida</span> </em>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card-services">
+                        <figure>
+                            <img src="assets/img/cd8.webp" class="services-card-img" alt="Conexão por wi-fi">
+                            <figcaption class="justify-content-center align-content-center legend-services">
+                                <em><span>Conexão por wi-fi</span> </em>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services Section end-->
+    <!--Accepted Flags Section start-->
+    <section class="flags" id="flags">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 col-lg-12">
+                    <h3 class="section-title-flags">Débito e Crédito</h3>
+                    <p class="section-subtitle-flags">Aceitamos as principais bandeiras de cartão</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-content-center">
+                <div class="col-lg-12 row justify-content-center align-content-center">
+                    <figure class="col-lg-3 col-md-3 col-sm-3 card-flags">
+                        <img src="assets/img/c1.webp" class="flags-card" alt="Mastercard">
+                        <figcaption class="justify-content-center align-content-center">
+                            <em><span class="legend-flag"><strong>Mastercard</strong></span> </em>
+                        </figcaption>
+                    </figure>
+                    <figure class="col-lg-3 col-md-3 col-sm-3  card-flags">
+                        <img src="assets/img/c2.webp" class="flags-card" alt="Visa">
+                        <figcaption class="justify-content-center align-content-center">
+                            <em><span class="legend-flag"><strong>Visa</strong></span> </em>
+                        </figcaption>
+                    </figure>
+                    <figure class="col-lg-3 col-md-3 col-sm-3  card-flags">
+                        <img src="assets/img/c3.webp" class="flags-card" alt="Pay">
+                        <figcaption class="justify-content-center align-content-center">
+                            <em><span class="legend-flag"><strong>Pay</strong></span> </em>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Accepted Flags Section End-->
+    <!--Tax Section start-->
+    <section class="tax" id="tax">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-lg-12">
+                    <div class="tax-item">
+                        <h3 class="tax-title">Venda com as Menores Taxas do Mercado!</h3>
+                        <p class="tax-subtitle">Com a MaxCard as taxas variam conforme o seu faturamento e mais, não cobramos o aluguel da máquina. É a solução completa para o seu negócio, mais facilidade para você, mais sucesso para seu empreendimento.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" class="btn btn-outline-light w-50">Peça Sua Maquininha</a>
+                        <p class="tax-subtitle-down">Peça já a sua! Entrega rápida para todo Portugal!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Tax Section end-->
+    <!--Customer Testimonials Section Start-->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 col-lg-12">
+                    <h3 class="section-title-testimonials">De Empresário para Empresário</h3>
+                    <p class="section-subtitle-testimonials">Veja os Depoimentos dos Empresários que Adquiriu nossa Maquininha de Cartão de Credito</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonials-item">
+                        <figure class="img-box">
+                            <img src="assets/img/testi1.webp" class="img-testi" width=92px height=100px alt="Robert Ferrer landing page one customers">
+                            <img src="assets/img/quote.svg" class="quote" alt="Avaliação do cliente">
+                        </figure>
+                        <p>"Fiz várias pesquisas para adquirir uma maquininha de cartão, até encontrar a MaxCard, e foi um dos melhores investimentos que fiz para meu negócio"</p>
+                        <h3>Maria da Costa</h3>
+                        <span>Dona da Loja Hangus</span>
+                        <div class="rating">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonials-item">
+                        <figure class="img-box">
+                            <img src="assets/img/testi2.webp" class="img-testi" width=92px height=100px alt="Robert Ferrer landing page one customers">
+                            <img src="assets/img/quote.svg" class="quote" alt="Avaliação do cliente">
+                        </figure>
+                        <p>"São tantas maneiras de vender com a MaxCard e são tantos benefícios. As taxas são personalizadas o que não pesa no orçamento no final do mês"</p>
+                        <h3>Marcos Prado</h3>
+                        <span>Dono da X2 Designer</span>
+                        <div class="rating">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonials-item">
+                        <figure class="img-box">
+                            <img src="assets/img/testi3.webp" class="img-testi" width=92px height=100px alt="Robert Ferrer landing page one customers">
+                            <img src="assets/img/quote.svg" class="quote" alt="Avaliação do cliente">
+                        </figure>
+                        <p>"Nunca pensei que teria uma experiência tão agradável no que diz respeito a recebimentos, como estou tendo com a MaxCard, estou supersatisfeita."</p>
+                        <h3>Leticia Passareli</h3>
+                        <span>Dona da Contabilista Passareli</span>
+                        <div class="rating">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                            <img src="assets/img/star.svg" class="star" alt="Avaliação feita pelo cliente">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-lg-12">
+                    <div class="btn-test text-center">
+                        <a href="testimonials.html" class="btn btn-outline-light">Veja os Depoimentos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Customer Testimonials Section End-->
+    <!--FAQ Section Start-->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 col-lg-12">
+                    <h3 class="section-title-faq">Tire Suas Dúvidas</h3>
+                    <p class="section-subtitle-faq text-center">Listamos abaixo as principais dúvidas relatadas pelos nossos clientes, caso não encontre a sua resposta, por favor, entre em contato.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" class="btn btn-outline-light">Chame no WhatsApp</a>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="service">
+                        <div class="icon-faq">
+                            <img src="assets/img/dollarsign.svg" alt="paid" width=70px height=70px class="faq-icon">
+                        </div>
+                        <div>
+                            <h4 class="tit-question-faq">Quais opções de pagamentos são aceitos?</h4>
+                            <p class="subtit-question-faq">Pix, QR Code, crédito, débito, voucher, link de pagamento ou pagamento por aproximação</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service">
+                        <div class="icon-faq">
+                            <img src="assets/img/card.svg" alt="paid" width=70px height=70px class="faq-icon">
+                        </div>
+                        <div>
+                            <h4 class="tit-question-faq">Quais bandeiras de cartão são aceitas?</h4>
+                            <p class="subtit-question-faq">Cartão de débito e crédito: Elo, Visa, Mastercard, Hiper, American Express e outros</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service">
+                        <div class="icon-faq">
+                            <img src="assets/img/star2.svg" alt="paid" width=70px height=70px class="faq-icon">
+                        </div>
+                        <div>
+                            <h4 class="tit-question-faq">Para quem a maquininha MaxCard é ideal?</h4>
+                            <p class="subtit-question-faq">Profissionais autônomos e microempreendedores que querem vender mais</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service">
+                        <div class="icon-faq">
+                            <img src="assets/img/error.svg" alt="paid" width=70px height=70px class="faq-icon">
+                        </div>
+                        <div>
+                            <h4 class="tit-question-faq">Quais as vantagens de ter uma maquininha de cartão?</h4>
+                            <p class="subtit-question-faq">Você atrai mais clientes, faz parcelamento e reduz perdas por inadimplência</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service">
+                        <div class="icon-faq">
+                            <img src="assets/img/phone2.svg" alt="paid" width=70px height=70px class="faq-icon">
+                        </div>
+                        <div>
+                            <h4 class="tit-question-faq">Se tiver problema com a maquininha como proceder?</h4>
+                            <p class="subtit-question-faq">Se precisar estamos prontos para lhe atender, ligue para: 0800-1234 e nós resolvemos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service">
+                        <div class="icon-faq">
+                            <img src="assets/img/location.svg" alt="paid" width=70px height=70px class="faq-icon">
+                        </div>
+                        <div>
+                            <h4 class="tit-question-faq">Se a bobina da máquina de cartão acabar?</h4>
+                            <p class="subtit-question-faq">Você pode pedir outra bobina pela sua máquina de cartão ou ligando para nós e trazemos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FAQ Section End-->
+    <!--Contact Section start-->
+    <section class="contact" id="contact">
+        <div class="container ">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h3 class="section-title-contact">Vamos Falar</h3>
+                    <p class="section-subtitle-contact text-center">Nos Mande Sua Mensagem e <br>Em breve entraremos em Contato.</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 ">
+                    <div class="contact-info-item ">
+                        <h3>Sobre Nós</h3>
+                        <p class="text-content-justify ">Faça um pedido e vamos conversar, não hesite em me enviar uma mensagem que responderei em breve</p>
+                        <br>
+                        <div class="contact-info-item ">
+                            <img src="assets/img/location2.svg" class="icon-form" alt="localização da empresa">
+                            <h4>Nosso Endereço</h4>
+                            <p>Rua da Paz, 140 - Centro, Viseu - Portugal</p>
+                        </div>
+                        <div class="contact-info-item ">
+                            <img src="assets/img/email2.svg" class="icon-form" alt="Escreva para nós">
+                            <h4>Escreva para Nós</h4>
+                            <p>ferrernomad@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item ">
+                            <img src="assets/img/phone3.svg" class="icon-form" alt="nosso telefone">
+                            <h4>Ligue para Nós</h4>
+                            <p>+351 000 000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form contact-info-item ">
+                        <h3>Formulário</h3>
+                        <form class="form-margin" action="https://formsubmit.co/ferrernomad@gmail.com" method="POST">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input name="nome" type="text" placeholder="Seu nome" class="form-control " required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input { color: #ffffff } name="phone" type="number" placeholder="Seu telemóvel" class="form-control " maxlength="15" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input name="email" type="email" placeholder="Seu email" class="form-control " required />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control input-width" id="textarea" name="message" placeholder="Sua mensagem" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox-privacy">
+                                        <input type="checkbox" id="input-3" checked="checked" class="check-input" required>
+                                        <label for="input-3" class="checkbox">
+                                                                                                  <svg viewBox="0 0 22 16" fill="none">
+                                                                                                      <path d="M1 6.85L8.09677 14L21 1" />
+                                                                                                  </svg>
+                                                                                              </label>
+                                        <span class="form-agree-text">Concorda com a </span><a href="privacypolicy.html"><span class="form-agree-main "> Política de Privacidade</span>.</a>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <button type="submit " class="btn btn-light">Enviar mensagem</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </fieldset>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Contact Section end-->
+    <!--Footer start-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row information justify-content-between">
+                <div class="col-auto social-icons-footer">
+                    <a href="tel:+5514998608309" target="_blank" width=100% height=100% alt="Phone"><img class="logo-social" src="assets/img/phone.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Phone"></a>
+                    <a href="mailto:ferrernomad@gmail.com" target="_blank" width=100% height=100% alt="Email"><img class="logo-social" src="assets/img/email.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Email"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" width=100% height=100% alt="WhatsApp"><img class="logo-social" src="assets/img/whatsapp2.svg" width=100% height=100% alt="WhatsApp"></a>
+                    <a href="https://www.facebook.com/ferreragency/" target="_blank" width=100% height=100% alt="facebook"><img class="logo-social" src="assets/img/facebook.svg" style=" padding=0px margin=0px width=100% height=100%" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/ferreragency/" target="_blank" width=100% height=100% alt="instagram"><img class="logo-social" src="assets/img/instagram.svg" width=100% height=100% alt="Instagram"></a>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <a href="privacypolicy.html" class=" social-terms"> <strong>Política de Privacidade</strong></a>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <a href="terms.html" class=" social-terms"> <strong>Termos de uso</strong></a>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <a href="index.html" class=" social-terms"> <strong>&copy; Ferrer Digital Agency</strong></a>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <p class="social-terms"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end-->
+    <!--Chat Section start-->
+    <div class="chat_icon row justify-content-between align-items-center">
+        <div class="chat_icon_box-title">
+            <h2 class="chat_icon_title">Fale conosco!</h2>
+        </div>
+        <h3 class="chat_icon_text">Pedir maquininha!</h3>
+        <i aria-hidden="true"><img class="chat_whatsapp" src="assets/img/whatsapp.svg"><span></span></i>
+    </div>
+    <div class="chat_box ">
+        <div class="my-conv-form-wrapper">
+            <div class="col-lg-12 ">
+                <div class="modal-header">
+                    <div class="col-lg-12 ">
+                        <div class="">
+                            <a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos"> <img class="logo-modal" src="assets/img/whatsapp.modal.svg" alt="Robert Ferrer"></a>
+                        </div>
+                        <div class="margin-modal">
+                            <h4 class="modal-title">Quero Ser Cliente!</h4>
+                            <p class="modal-subtitle">Atendimento das 8 às 18hs<br> segunda a sexta</p>
+                        </div>
+                        <br>
+                        <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" class="btn-brand-modal"><img class="logo-modal-btn" src="assets/img/whatsapp.modal.svg" alt="Robert Ferrer"><span class="btn-talk">Conversar</span></a>
+                    </div>
+                </div>
+                <div class="modal-header">
+                    <div class="col-lg-12 ">
+                        <div class="">
+                            <a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos"> <img class="logo-modal" src="assets/img/whatsapp.modal.svg" alt="Robert Ferrer"></a>
+                        </div>
+                        <div class="margin-modal">
+                            <h4 class="modal-title">Já Sou Cliente!</h4>
+                            <p class="modal-subtitle">Atendimento das 8 às 18hs<br> segunda a sexta</p>
+                        </div>
+                        <br>
+                        <a href="https://api.whatsapp.com/send?phone=5514998608309&text=Ol%C3%A1,%20seja%20bem%20vindo%20a%20Ferrer%20Agency%20%7C%20Marketing%20Digital.%0A%0ADeixe%20seu%20recado%20que%20em%20breve%20retornaremos" target="_blank" class="btn-brand-modal"><img class="logo-modal-btn" src="assets/img/whatsapp.modal.svg" alt="Robert Ferrer"><span class="btn-talk">Conversar</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Chat Section end-->
+    <!-- jquery js -->
+    <script src="assets/js/jquery.min.js "></script>
+    <!-- Movement and owl carousel Section -->
+    <script src="./assets/js/aos.min.js"></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/owl.carousel.min.js "></script>
+    <script src="./assets/js/app.js"></script>
+    <!-- ChatBot -->
+    <script type="text/javascript" src="assets/js/chat.js"></script>
+</body>
+
+</html>
